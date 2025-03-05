@@ -25,6 +25,12 @@ img {
     cursor: pointer;
 }
 
+@media screen and (min-width: 1000px) {
+    header .buttons {
+        width: 200px;
+    }
+}
+
 .header-button, .card-button {
     font-size: 1.2em;
 }
@@ -73,6 +79,54 @@ header {
     
 }
 
+/* header tablet */
+
+@media screen and (min-width: 700px) {
+    header {
+        border-radius: 0;
+    }
+
+}
+
+/* header medium */
+
+@media screen and (min-width: 1024px) {
+    body {
+        display: flex;
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    header, #small-shop-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 0;
+        border-radius: 0;
+    }
+
+    .big-shop {
+        width: 114px;
+        
+        padding: 25px 25px;
+    }
+
+    .header-button, .card-button, .big-shop {
+        font-size: 1em;
+    }
+
+    #big-shop-container img {
+        width: 30px;
+        
+    }
+
+}
+
+/* header large */
+
+@media screen and (min-width: 1200px) {
+    /* idk */
+}
 
 /* MAIN */
 
@@ -135,6 +189,56 @@ p {
     padding: 15px 100px;
 }
 
+/* cards tablet */
+
+@media screen and (min-width: 700px) {
+    .cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cards {
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+
+    .cards img {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .card-button {
+        padding: 15px 70px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    article {
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .cards {
+        border-radius: 50px;
+    }
+
+    .cards img {
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+    }
+
+    .card-button {
+        padding: 15px 50px;
+    }
+}
+
 
 /* Latest NEWS */
 
@@ -157,9 +261,27 @@ section {
     align-content: center;
     margin: 20px 0;
     padding: 30px 40px;
+    text-align: left;
 }
 
 section p {
     margin-bottom: 15px;
 }
 
+
+
+@media screen and (min-width: 700px) {
+    section {
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    section {
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    
+}
