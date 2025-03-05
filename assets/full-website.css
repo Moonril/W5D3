@@ -1,0 +1,91 @@
+/* GENERAL */
+
+body {
+    font-family: Poppins, "Helvetica Neue", sans-serif;
+    line-height: 1.6;
+    padding: 15px;
+    text-align: center;
+    color: #732104;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+/* BUTTONS */
+
+.buttons {
+    background-color: #ffdf7f;
+    border: none;
+    border-radius: 100px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.header-button, .card-button {
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: #732104;
+    font-weight: bold;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #fef7e2;
+    border-radius: 90px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.big-shop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    font-size: 2.5em;
+    padding: 50px 70px;
+}
+
+#big-shop-container img {
+    width: 50px;
+    
+}
+
+#small-shop-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* flex-wrap: wrap;
+    justify-content: center; */
+}
+
+.header-button {
+    padding: 25px 25px;
+    
+}
+
+
+
+
+
+
+
+
+/* MAIN */
+
+h1 {
+    font-size: 2.6rem;
+    line-height: 1.2;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+}
