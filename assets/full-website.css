@@ -6,6 +6,10 @@ body {
     padding: 15px;
     text-align: center;
     color: #732104;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
 }
 
 
@@ -52,6 +56,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+    /* max-width: 500px; */
 }
 
 
@@ -84,6 +89,7 @@ header {
 @media screen and (min-width: 700px) {
     header {
         border-radius: 0;
+        /* width: 900px; */
     }
 
 }
@@ -138,7 +144,7 @@ h1 {
     margin: 50px;
 }
 
-/* CARDS MADNESS */
+/* CARDS MADNESS */ /* cards width fissa */
 
 .cards-container {
     display: flex;
@@ -155,7 +161,7 @@ h1 {
 
 /* dentro la card abbiamo: 3 container, uno per l'img, uno per i testo e uno per il tasto */
 
-.cards img {
+.cards img { /* this works, or tell the card to hide excess stuff, overflow:hidden */
     border-top-right-radius: 90px;
     border-top-left-radius: 90px;
 }

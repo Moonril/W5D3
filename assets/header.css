@@ -1,0 +1,57 @@
+header {
+    margin: 0;
+    background-color: #fef7e2;
+    border-radius: 90px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px
+}
+
+header img {
+    width: 50px;
+    
+}
+
+.buttons {
+    background-color: #ffdf7f;
+    border: none;
+    border-radius: 100px;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.big-shop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    font-size: 1.5em;
+    padding: 10px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #732104;
+    font-weight: bold;
+}
+
+
+#butt1 {
+    order: 3;
+}
+#butt2 {
+    order: 1;
+}
+#butt3 {
+    order: 2;
+}
+#butt4 {
+    order: 4;
+}
+#butt5 {
+    order: 5;
+}
